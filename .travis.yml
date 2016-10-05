@@ -1,0 +1,10 @@
+language: java
+jdk:
+- oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: KF+jHv26mw2wVEFkBk3MlPLF84zFOd0R/lKNqX+TopItRN+dZHmT9PRzebFhuaI0R6bElPocDv+Eu7ZryYvn2KqgLqoUE9ESUIVz8BahymaPiNAAZGva5nlzQlyGZyEYasGc69YeUUujZCYMoXsmip0EE128bniXqYNbSxu3cdEnQ1/69Hbv4bDD1FfjgkYbQ6xk/MAYB16i+IpnMeM6BKdb38/Vi76tEJt+QPPhruGx1FmT8rSIqFl3My6e7NesQ+HeL5UHICx1txhnqSwPnqLbLV8YOVsFpH0smUmJgZfoUNIZXg0ingSsa4ahWnXdjiRmHseqbEnkliZsNN3dCOhe+RLhSAnHXWElD0Ro2Di8vgByu8xmtt1I95pQ1ff7hIwgbZhWelewM9LdOGWZu37eBIdAeyPEgOP+AlamZLb63/tAlkdYJZz1/OkhGxAtCy9peL81wed4K5Ngno6yzk/hGqTf9VvW669OpiXR688NlhRamlNQojMf8mQvghkwBKrPBFBIr1dSEColJSMvRE2x2hto+pR36nsG4QYNghfL5QIAd1Fmlt5VARjmhlCrJB/BWsyU5tPdY+etKgQiB/V0NtIyXQDUTTMvQkY0xuE9fWn12y2oKErPUIzJO06TqWoXfH4N87bAiKF47G8lWlCxL36k1/sm890wCLW3qmw=
+  app: javaprodaction
+  on:
+    repo: tupiznak/tanks-09-2016
